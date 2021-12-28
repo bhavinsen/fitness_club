@@ -1,0 +1,82 @@
+.main_section {
+    background-image: url(../../Assets/Images/main.jpg);
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    @media (max-width: 768px) {
+        min-height: 100%;
+    }
+
+    .contentwrap {
+        position: relative;
+        min-height: 100vh;
+        @media (max-width: 768px) {
+            min-height: 100%;
+            padding: 30% 0;
+        }
+
+        .content_left {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 100px;
+
+            @media (max-width: 991px) {
+                left: 20px;
+            }
+            @media (max-width: 768px) {
+                position: initial;
+                transform: initial;
+            }
+
+            h1 {
+                max-width: 600px;
+                font-size: 52px;
+                margin-bottom: 24px;
+
+                @media (max-width: 991px) {
+                    max-width: 450px;
+                    font-size: 32px;
+                    margin-bottom: 16px;
+                }
+                @media (max-width: 576px) {
+                    max-width: 90%;
+                    font-size: 26px;
+                }
+            }
+
+            P {
+                max-width: 530px;
+                font-size: 16px;
+                margin-bottom: 24px;
+                font-weight: 500;
+                @media (max-width: 991px) {
+                    max-width: 400px;
+                }
+                @media (max-width: 576px) {
+                    max-width: 90%;
+                    font-size: 14px;
+                }
+            }
+
+            .btn_wrapper {
+                display: flex;
+                gap: 20px;
+
+                .btn {
+                    min-width: 150px;
+                    @media (max-width: 425px) {
+                        min-width: 100px;
+                    }
+                }
+
+                .btn-primary {
+                    background-color: #018BCB;
+                    border-color: #018BCB;
+                }
+            }
+        }
+    }
+}
