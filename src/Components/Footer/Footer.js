@@ -9,6 +9,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faMapMarkerAlt, faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import Whitelogo from '../../Assets/Images/whitelogo.png'
 
 function Footer() {
    return (
@@ -17,7 +18,7 @@ function Footer() {
             <div className="footer_main">
                <div className="brand_sec">
                   <div className="brand_logo">
-                     <span>ONE WELLNESS FITNESS CLUB</span>
+                     <img src={Whitelogo} alt="Whitelogo" />
                   </div>
                   <p className="about_text">
                      It is a long established fact that a reader will be

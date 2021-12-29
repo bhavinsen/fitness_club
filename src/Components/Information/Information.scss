@@ -1,0 +1,109 @@
+.Main-Information{
+    width: 100%;
+    height: 485px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media(max-width:991px){
+        display: block;
+        height: auto;
+    }
+    .About-Information{
+        width: 50%;
+        padding: 88px 0px;
+        background-color: #018BCB;
+        background-image: url(../../Assets/Images/footerbgpattern.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        @media(max-width:991px){
+            width: 100%;
+            padding: 75px 0px;
+        }
+        @media(max-width:575px){
+            padding: 50px 0px;
+        }
+        .All-Information{
+            max-width: 660px;
+            margin-left: auto;
+            @media(max-width:1399px){
+                max-width: 570px;
+            }
+            @media(max-width:1199px){
+                max-width: 480px;
+            }
+            @media(max-width:991px){
+                max-width: 720px;
+                margin: auto;
+            }
+            @media(max-width:767px){
+                max-width: 540px;
+            }
+            @media(max-width:575px){
+                max-width: 100%;
+                padding: 0px 20px;
+            }
+            h1{
+                font-size: 48px;
+                width: 560px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 58px;
+                color: #fff;
+                margin-bottom: 28px;
+                @media(max-width:1199px){
+                    font-size: 44px;
+                    width: 490px;
+                }
+                @media(max-width:575px){
+                    width: 100%;
+                    font-size: 36px;
+                }
+                @media(max-width:392px){
+                    font-size: 26px;
+                    line-height: 46px;
+                }
+            }
+            p{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 27px;
+                width: 511px;
+                margin: 15px 0px;
+                color: #FFFFFF;
+                @media(max-width:1199px){
+                    width: 425px;
+                    br{
+                        display: none;
+                    }
+                }
+                @media(max-width:575px){
+                    width: 100%;
+                }
+            }
+            button{
+                width: 128px;
+                height: 46px;
+                background: #FFFFFF;
+                border-radius: 7px;
+                color: #018BCB;
+                font-weight: 500;
+                font-size: 18px;
+                border-color: unset;
+                margin: 10px 0px;
+            }
+        }
+    }
+    .Information-image{
+        width: 50%;
+        height: 100%;
+        @media(max-width:991px){
+            width: 100%;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

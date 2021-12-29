@@ -2,6 +2,9 @@
     background-color: #018BCB;
     color: #fff;
     padding: 36px 0;
+    background-image: url(../../Assets/Images/footerbgpattern.png);
+    background-size: cover;
+    background-position: center;
     .footer_main{
         display: flex;
         justify-content: space-between;
@@ -11,6 +14,13 @@
         }
         .brand_logo{
             margin-bottom: 20px;
+            max-width: 300px;
+            @media (max-width: 375px) {
+                max-width: 290px;
+            }
+            img{
+                width: 100%;
+            }
         }
         .about_text{
             max-width: 358px;

@@ -1,0 +1,129 @@
+.ourevent_wrap {
+    background-color: rgb(1 139 203 / 4%);
+    padding: 50px 0 65px;
+    background-image: url(../../Assets/Images/choseusbg.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    .ourevent_main {
+        .ourevent_title {
+            text-align: center;
+
+            @media (max-width: 991px) {
+                position: relative;
+                z-index: 2;
+            }
+
+            h6 {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                text-align: center;
+                color: #018BCB;
+            }
+
+            h1 {
+                font-weight: 600;
+                font-size: 38px;
+                line-height: 46px;
+                text-align: center;
+                color: #018BCB;
+            }
+
+            .ourevent_img {
+                max-width: 230px;
+                margin: 0 auto 20px;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .slick-slider {
+            .slick-track {
+                padding: 32px 0;
+
+                .ourevent_card_space {
+                    padding: 0 30px;
+                    @media (max-width: 1399px) {
+                        padding: 0 20px;
+                    }
+                    @media (max-width: 1199px) {
+                        padding: 0 16px;
+                    }
+
+                    .ourevent_card {
+                        background-color: #fff;
+                        box-shadow: 0 3px 20px rgb(0 0 0 / 6%), 0 2px 20px rgb(0 0 0 / 10%);
+                        border-radius: 5px;
+
+                        .ourevent_card_img {
+                            height: 300px;
+                            @media (max-width: 1399px) {
+                                height: 250px;
+                            }
+                            @media (max-width: 1199px) {
+                                height: 230px;
+                            }
+                            @media (max-width: 991px) {
+                                height: 290px;
+                            }
+                            @media (max-width: 767px) {
+                                height: 250px;
+                            }
+
+                            img {
+                                width: 100%;
+                                border-radius: 5px 5px 0px 0px;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+
+                        .ourevent_card_text {
+                            text-align: center;
+                            padding: 8px 0;
+
+                            p {
+                                font-weight: 500;
+                                font-size: 14px;
+                                line-height: 171.02%;
+                                text-align: center;
+                                color: #434343;
+                                margin-bottom: 0px;
+                                @media (max-width: 1199px) {
+                                    font-size: 13px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .slick-dots {
+                li {
+                    button {
+                        &::before {
+                            color: #018BCB;
+                            opacity: 1;
+                            width: 12px;
+                            height: 12px;
+                            font-size: 4px;
+                            line-height: 11px;
+                        }
+                    }
+                }
+                .slick-active{
+                    button{
+                        &::before{
+                            border: 1px solid #018BCB;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

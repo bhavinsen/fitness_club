@@ -3,6 +3,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faMapMarkerAlt, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Mainlogo from '../../Assets/Images/mainlogo.png';
 import "./Header.scss";
 
 function Header() {
@@ -42,7 +43,7 @@ function Header() {
             <Navbar bg="light" expand="lg">
                <Container>
                   <Navbar.Brand href="#home">
-                     <span>ONE WELLNESS FITNESS CLUB</span>
+                     <img src={Mainlogo} alt="mainlogo" />
                   </Navbar.Brand>
                   <Navbar.Toggle aria-controls="basic-navbar-nav" />
                   <Navbar.Collapse id="basic-navbar-nav">
