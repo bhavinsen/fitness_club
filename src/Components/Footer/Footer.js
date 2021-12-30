@@ -52,7 +52,7 @@ function Footer() {
                   </div>
                   <ul className="quick_link_ul">
                      <li>
-                        <a href="#home">
+                        <a href="/">
                            <span>Home</span>
                         </a>
                      </li>
@@ -67,7 +67,7 @@ function Footer() {
                         </a>
                      </li>
                      <li>
-                        <a href="#contact">
+                        <a href="/contactus">
                            <span>Contact</span>
                         </a>
                      </li>

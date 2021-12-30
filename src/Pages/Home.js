@@ -9,6 +9,8 @@ import Ourservices from '../Components/Ourservices/Ourservices.js'
 import Testimonial from '../Components/Testimonial/Testimonial.js'
 import Information from '../Components/Information/Information.js'
 import Yogapicture from '../Components/Yogapicture/Yogapicture.js'
+import Ourteam from '../Components/Ourteam/Ourteam.js'
+import ContactUs from '../Components/ContactUs/ContactUs.js'
 
 function Home() {
     return (
@@ -22,6 +24,8 @@ function Home() {
             <Ourevent />
             <Ourmission />
             <Yogapicture />
+            <Ourteam />
+            <ContactUs />
             <Footer />
         </div>
     )

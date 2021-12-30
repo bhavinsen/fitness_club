@@ -1,0 +1,38 @@
+.contactmap_wrap{
+    background: rgb(1 139 203 / 4%);
+    padding: 60px 0;
+    .contact-title{
+        h6 {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #018BCB;
+        }
+
+        h1 {
+            font-weight: 600;
+            font-size: 38px;
+            line-height: 46px;
+            text-align: center;
+            color: #018BCB;
+        }
+        .contactpattern_img{
+            width: 180px;
+            margin:0px auto 15px;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+    .map_wrap{
+        height: 100%;
+        @media (max-width: 991px) {
+            height: 500px;
+            margin-top: 30px;
+        }
+        @media (max-width: 575px) {
+            height: 400px;
+        }
+    }
+}

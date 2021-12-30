@@ -18,7 +18,7 @@ function Mainsection() {
                   </p>
                   <div className="btn_wrapper">
                      <Button variant="primary">See More</Button>
-                     <Button variant="outline-light">Contact Us</Button>
+                     <a className="btn btn-outline-light" href="/contactus" variant="outline-light">Contact Us</a>
                   </div>
                </div>
             </div>

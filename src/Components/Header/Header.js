@@ -7,6 +7,7 @@ import Mainlogo from '../../Assets/Images/mainlogo.png';
 import "./Header.scss";
 
 function Header() {
+   // const [active, setActive] = React.useState();
    return (
       <div className="header_wrap">
          <div className="top_header">
@@ -42,7 +43,7 @@ function Header() {
          <div className="main_header">
             <Navbar bg="light" expand="lg">
                <Container>
-                  <Navbar.Brand href="#home">
+                  <Navbar.Brand href="/">
                      <img src={Mainlogo} alt="mainlogo" />
                   </Navbar.Brand>
                   <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -57,13 +58,13 @@ function Header() {
                            <span></span>Live Classes
                         </Nav.Link>
                         <Nav.Link
-                           href="#liveclasses"
+                           href="#login"
                            className="btn btn-primary"
                         >
                            Login
                         </Nav.Link>
                         <Nav.Link
-                           href="#liveclasses"
+                           href="#register"
                            className="btn btn-primary"
                         >
                            Register

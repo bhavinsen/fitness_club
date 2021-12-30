@@ -1,0 +1,87 @@
+.ContactUs{
+    width: 100%;
+    background-image: url(../../Assets/Images/Contactbg.png);
+    background-repeat: no-repeat;
+    padding: 60px 0px;
+    background-size: cover;
+    @media(max-width:429px){
+        padding: 75px 0px;
+    }
+    .contact-title{
+        h6 {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #018BCB;
+        }
+
+        h1 {
+            font-weight: 600;
+            font-size: 38px;
+            line-height: 46px;
+            text-align: center;
+            color: #018BCB;
+        }
+        .contactpattern_img{
+            width: 35%;
+            margin:0px auto 15px;
+            img{
+                max-width: 100%;
+            }
+        }
+        p{
+            font-style: normal;
+            margin: 20px 0px;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 27px;
+            color: #434343;
+            @media(max-width:1199px){
+                text-align: justify;
+                br{
+                    display: none;
+
+                }
+            }
+        }
+    }
+    .All-contactus{
+        .contact-calls{
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            @media(max-width:991px){
+                margin-bottom: 50px;
+            }
+            li{
+                padding: 8px 0;
+                a{
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    .contact-icon{
+                        min-width: 45px;
+                        height: 45px;
+                        background-color: #018BCB;
+                        color: #FFF;
+                        border-radius: 50%;
+                        text-align: center;
+                        line-height: 45px;
+                        svg{
+                            font-size: 20px;
+                        }
+                    }
+                    span{
+                        color: #434343;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 27px;
+                    }
+                }
+            }
+        }
+    }
+}

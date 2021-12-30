@@ -1,0 +1,136 @@
+.ourteam_wrap {
+    padding: 60px 0;
+
+    .ourteam_main {
+        .ourteam_title {
+            text-align: center;
+
+            @media (max-width: 991px) {
+                position: relative;
+                z-index: 2;
+            }
+
+            h6 {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                text-align: center;
+                color: #018BCB;
+            }
+
+            h1 {
+                font-weight: 600;
+                font-size: 38px;
+                line-height: 46px;
+                text-align: center;
+                color: #018BCB;
+            }
+
+            .ourteam_img {
+                max-width: 170px;
+                margin: 0 auto 50px;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .ourteam_card_main {
+            .ourteam_card {
+                border: 1px solid #C2E5F0;
+                @media (max-width: 991px) {
+                    margin-bottom: 24px;
+                }
+
+                .expert_name {
+                    padding: 20px 8px 80px;
+                    background: #F5FBFD;
+                    border-bottom: 1px solid #C2E5F0;
+                    text-align: center;
+                }
+
+                .expert_image {
+                    border: 1px solid #C2E5F0;
+                    border-radius: 50%;
+                    width: 144px;
+                    height: 144px;
+                    margin: auto;
+                    margin-top: -72px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 50%;
+                    }
+                }
+
+                .expert_info {
+                    border-bottom: 1px dashed #C2E5F0;
+                    margin-bottom: 5px;
+                    padding: 8px;
+                    text-align: center;
+
+                    p {
+                        font-size: 16px;
+                        line-height: 171.02%;
+                        max-width: 194px;
+                        margin: 0 auto;
+
+                        a {
+                            color: #018BCB;
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                .expert_social_media {
+                    border-top: 1px solid #C2E5F0;
+                    padding: 12px;
+
+                    ul {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 0px;
+                        margin: 0px;
+                        list-style: none;
+                        gap: 12px;
+
+                        li {
+                            a {
+                                height: 26px;
+                                width: 26px;
+                                border-radius: 50%;
+                                background-color: #018BCB;
+                                text-align: center;
+                                line-height: 26px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                                &>svg {
+                                    color: #fff;
+                                }
+
+                                span {
+                                    background-color: #fff;
+                                    max-height: 13px;
+                                    min-width: 13px;
+                                    border-radius: 50%;
+                                    display: inline-block;
+
+                                    svg {
+                                        font-size: 9px;
+                                        margin-bottom: 9px;
+                                        color: #018BCB
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
